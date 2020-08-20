@@ -9,6 +9,7 @@ export default function Department(props) {
     const data = props.index;
     const departmentAction = data.departmentAction !== undefined ? data.departmentAction : "";
     const back = (departmentAction) => {
+        data.selectedCity = undefined;
         if (departmentAction === "ShowRegionSearch") {
             return window.history.back()
         } else if (departmentAction === "ShowCitySearch") {
