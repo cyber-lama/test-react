@@ -1,5 +1,6 @@
 import React from "react";
 import {renderData} from "../../helpers/helpers";
+import "../componentsStyles/departmentsSearch.scss";
 
 export default function (props) {
     const departments = props.index.departments !== undefined ? props.index.departments : "";

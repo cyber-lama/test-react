@@ -1,0 +1,16 @@
+.department__list{
+  padding-left: 0;
+  list-style: none;
+  margin: 50px 0;
+  border-bottom: 1px solid;
+  .department__item{
+    margin-bottom: 50px;
+    .department__text{
+      font-weight: 600;
+      &:last-child{
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+    }
+  }
+}

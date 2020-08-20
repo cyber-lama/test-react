@@ -1,0 +1,37 @@
+.region__list-all{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  padding-left: 0;
+  list-style: none ;
+  .region__title-all{
+    margin: 0;
+    span{
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-sizing: border-box;
+      background: #f1f4f9;
+      font-weight: 800;
+      border-radius: 50%;
+    }
+  }
+  .region__item-all{
+    width: calc(100% / 7);
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 auto 40px auto;
+  }
+  .region__list{
+    list-style: none;
+  }
+  .region__item{
+    color: #5265ac;
+    border-bottom: 1px solid;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+}

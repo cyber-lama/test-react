@@ -1,4 +1,5 @@
 import React, {useEffect} from "react";
+import '../componentsStyles/regionSearch.scss';
 
 export default function RegionSearch(props) {
     useEffect(() => {

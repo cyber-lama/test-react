@@ -1,0 +1,30 @@
+.departments{
+  .departments__title{
+    text-align: center;
+  }
+  button{
+    display: block;
+    cursor: pointer;
+  }
+  .departments__btn_background{
+    background: #efeff7;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  .departments__btn-select{
+    padding: 20px 0;
+    background: none;
+    border: 0;
+    outline: none;
+    position: relative;
+  }
+  .departments__btn-back{
+    margin: auto;
+    background: white;
+    border-radius: 40px;
+    padding: 10px 20px;
+    border: 1px solid #b2c9da;
+    outline: none;
+  }
+}
