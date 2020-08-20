@@ -1,6 +1,6 @@
 import React from "react";
 import {renderData} from "../../helpers/helpers";
-import "../componentsStyles/citySearch.scss";
+import "../../../scss/components/department/citySearch.scss";
 
 export default function (props) {
     const city = props.index.city !== undefined ? props.index.city : "";

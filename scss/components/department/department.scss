@@ -13,11 +13,22 @@
     margin-bottom: 20px;
   }
   .departments__btn-select{
-    padding: 20px 0;
+    padding: 20px 0 20px 24px;
     background: none;
     border: 0;
     outline: none;
     position: relative;
+    &:before{
+      left: 0;
+      top: 16px;
+      position: absolute;
+      content: "";
+      width: 20px;
+      height: 20px;
+      display: block;
+      background-size: cover;
+      background-image: url("/static/image/location.png");
+    }
   }
   .departments__btn-back{
     margin: auto;

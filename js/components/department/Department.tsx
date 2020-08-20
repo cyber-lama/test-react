@@ -3,7 +3,7 @@ import RegionSearchContainer from "../../wrappedComponents/RegionSearchContainer
 import CitySearchContainer from "../../wrappedComponents/CitySearchContainer";
 import DepartmentSearchContainer from "../../wrappedComponents/DepartmentSearchContainer";
 import Button from "../pieces/Button";
-import '../componentsStyles/department.scss';
+import '../../../scss/components/department/department.scss';
 
 export default function Department(props) {
     const data = props.index;
