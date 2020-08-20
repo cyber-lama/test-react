@@ -11,7 +11,7 @@ export default function Department(props) {
     const back = (departmentAction) => {
         data.selectedCity = undefined;
         if (departmentAction === "ShowRegionSearch") {
-            return window.history.back()
+            return props.setActionData("departmentAction", undefined)
         } else if (departmentAction === "ShowCitySearch") {
             return props.setActionData("departmentAction", "ShowRegionSearch")
         } else if (departmentAction === "ShowDepartmentSearch") {
