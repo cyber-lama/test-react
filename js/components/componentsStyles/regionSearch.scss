@@ -35,3 +35,19 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 1200px){
+  .region__list-all .region__item-all{
+    width: calc(100% / 4);
+  }
+}
+@media screen and (max-width: 767px){
+  .region__list-all .region__item-all{
+    width: calc(100% / 2);
+  }
+}
+@media screen and (max-width: 500px){
+  .region__list-all .region__item-all{
+    width: 100%;
+  }
+}
